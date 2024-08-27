@@ -1,8 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer tw-base, tw-components, ui, tw-untilities;
 
-@layer components {
+@import 'tailwindcss/base' layer(tw-base);
+@import 'tailwindcss/components' layer(tw-components);
+@import 'tailwindcss/utilities' layer(tw-untilities);
+
+@layer ui {
   .btn-border {
     border: 1px solid;
     border-radius: 5px;

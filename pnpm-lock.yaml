@@ -19,6 +19,9 @@ devDependencies:
   postcss-import:
     specifier: ^16.1.0
     version: 16.1.0(postcss@8.4.41)
+  tailwindcss:
+    specifier: ^3.4.10
+    version: 3.4.10
 
 packages:
 
